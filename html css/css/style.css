@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  background: white;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+  min-width: 960px;
+}
+.wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 960px;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+.topBar {
+  background: black;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.log {
+  float: left;
+  cursor: pointer;
+  margin: 15px 0;
+}
+.log span {
+  color: #27c7ab;
+  font-weight: bold;
+}
+.nav {
+  float: right;
+  margin: 0;
+  padding: 15px 0;
+}
+.nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 15px;
+  cursor: pointer;
+}
+.bg {
+  background: linear-gradient(to bottom, #fafafa 1%,#d0cfd7 99%);
+  min-height: 400px;
+  padding: 80px 0;
+  box-sizing: border-box;
+}
+.slider {
+  position: relative;
+}
+.slider img {
+  display: inline-block;
+}
+.slider h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  vertical-align: top;
+  margin: auto;
+  font-size: 40px;
+}
+.slider span {
+  color: #27c7ab;
+  font-weight: 700;
+}
+.slider p {
+  display: inline-block;
+  line-height: 1.5;
+  font-size: 14px;
+}
+.slider a {
+  font-size: 78px;
+  color: #27c7ab;
+  text-decoration: none;
+  position: absolute;
+}
+.slide_prev {
+  top: 50%;
+  margin-top: -40px;
+}
+.slide_next {
+  top: 50%;
+  right: 0px;
+  margin-top: -40px;
+}
+.button{
+  background: #27c7ab;
+  padding: 10px 35px;;
+  border-radius: 10px;
+  min-height: 15px;
+  color: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.opis {
+  display: inline-block;
+  width: 365px;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 45px;
+  margin-left: 0;
+}
+.fotos {
+  background: black;
+  padding: 30px 0;
+  font-size: 0;
+}
+.foto {
+  margin: 0 -10px;
+}
+.box {
+  width: 300px;
+  height: 250px;
+  background: white;
+  display: inline-block;
+  margin: 0 13px;
+}
+.foto1 {
+  background-image: url('../images/box1_img.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.foto2 {
+  background-image: url('../images/box2_img.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.foot {
+  padding: 40px 0;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.copy {
+  float: left;
+}
+.logfot {
+  float: right;
+
+}
